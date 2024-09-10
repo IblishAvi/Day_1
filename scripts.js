@@ -169,7 +169,7 @@ console.log(binarySearch(3)); // Output: 3
 console.log(binarySearch(4)); // Output: 4
 console.log(binarySearch(10)); // Output: Value not found
 
-// Use script is used here to prevent the reallocation of value.
+// Use strict mode is used here to prevent the reallocation of value.
 function add(num1 ,num2){
     "use strict"
     num1=100;
